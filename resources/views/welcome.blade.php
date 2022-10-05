@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Portcity Convocation Sucks
                 </div>
 
                 <div class="links">

@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Portcity Convocation Sucks
+                     Isfak is boss
                 </div>
 
                 <div class="links">

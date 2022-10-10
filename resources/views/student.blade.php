@@ -13,9 +13,18 @@
   </head>
   <body>
 
+    @if($layout == 'index')
 
+        <div class="container-fluid">
+            <section></section>
+            <section></section>
+        </div>
+    @elseif($layout == 'create')
+    @elseif($layout == 'show')
+    @elseif($layout == 'edit')
 
-    
+    @endif
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

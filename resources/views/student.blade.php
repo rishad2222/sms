@@ -16,12 +16,40 @@
     @if($layout == 'index')
 
         <div class="container-fluid">
-            <section></section>
-            <section></section>
+            <section class="col">
+                @include('studentlist')
+            </section>
+            <section class="col">
+
+            </section>
         </div>
     @elseif($layout == 'create')
+    <div class="container-fluid">
+        <section class="col">
+            @include('studentlist')
+        </section>
+        <section class="col">
+
+        </section>
+    </div>
     @elseif($layout == 'show')
+    <div class="container-fluid">
+        <section class="col">
+            @include('studentlist')
+        </section>
+        <section class="col">
+
+        </section>
+    </div>
     @elseif($layout == 'edit')
+    <div class="container-fluid">
+        <section class="col">
+            @include('studentlist')
+        </section>
+        <section class="col">
+
+        </section>
+    </div>
 
     @endif
 

@@ -19,7 +19,7 @@
         <th>{{ $student->speciality }}</th>
         <td>
             <a href="#" class="btn btn-sm btn-info">Show</a>
-            <a href="{{ url('/edit/'.$student->id) }}" class="btn btn-sm btn-info">Show</a>
+            <a href="{{ url('/edit/'.$student->id) }}" class="btn btn-sm btn-warning">Show</a>
             <a href="#" class="btn btn-sm btn-danger">Delete</a>
         </td>
 
